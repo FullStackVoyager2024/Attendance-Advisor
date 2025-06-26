@@ -1,0 +1,137 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Geist', sans-serif;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  color: #222;
+}
+
+/* Navigation Bar */
+nav.navbar {
+  background-color: #6e46e7;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navdiv {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav-menu {
+  list-style: none;
+}
+
+.nav-menu li {
+  display: inline-block;
+}
+
+.nav-button {
+  background: #fff;
+  color: #6e46e7;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+  text-decoration: none;
+}
+
+.nav-button:hover {
+  background-color: #ddd;
+}
+
+/* Hero Message */
+.navbar-sub-heading {
+  text-align: center;
+  padding: 1.2rem;
+  color: #555;
+}
+
+.divider {
+  height: 1px;
+  background-color: #ccc;
+  margin: 1rem auto 2rem;
+  width: 80%;
+}
+
+/* Card Container */
+.container-centered {
+  max-width: 500px;
+  margin: auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Input Block */
+.input-container {
+  display: flex;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.input-container label {
+  background-color: #f1f1f1;
+  padding: 0.75rem 1rem;
+  min-width: 100px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.input-container input,
+.percentage-select {
+  flex: 1;
+  border: none;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+}
+
+/* Button Style */
+.calculate-btn {
+  background-color: #6e46e7;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.calculate-btn:hover {
+  background-color: #5436c1;
+}
+
+/* Output Styling */
+.output-text {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #333;
+}
+
+strong {
+  color: #000;
+}
